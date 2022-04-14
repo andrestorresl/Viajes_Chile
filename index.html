@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+<!-- info para el navegador -->
+    <meta charset="UTF-8">
+    <!-- codificación de los caracteres del documento (símbolos y caracteres latinos) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title> 
+    <!-- titulo de la página -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+      
+    <!--Para el caso de otros links, la etiqueta para los enlaces es: <a>, y se escribe de la siguiente manera:
+<a href="link">Texto a mostrar</a> .Al interior de href="" debe ir la ruta a la cual seremos dirigidos. Y 
+entre los símbolos >< debería ir el contenido mostrado para hacer clic. -->
+<!-- si se quiere agregar un icono tiene que agregarse en el head por ejemplo: <link rel="icon" type="image/png" href="/assets/favicon/icono.png"> -->
+<!-- otros metadatos que se pueden agregar son por ejemplo el de autor (<meta name="author">), de descripción (<meta name="description">) y
+de palabras clave (<meta name="keywords">) entre otros -->
+</head>
+
+<body>
+<!-- contiene todos los elementos que se representan de forma visible al visitante de la página web -->
+    <header>
+        <nav class=" navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+            <!-- bg-transparent es para que el Navbar quede transparente y fixed-top es para que el Navbar quede fijo -->
+            <div class="container">
+                <h1 class="h1nav">ViajesChile</h1>
+                <!-- los headings (o encabezados) son textos de mayor jerarquía que los párrafos, y son etiquetas que se escriben con la 
+                letra h y la sigue un número del 1 al 6: <h1>, <h2>, <h3>, <h4>, <h5> y <h6>   -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="nav navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- ul significa unordered list y la usaremos cuando tengamos que hacer un listado de
+                        elementos sin un orden particular. ol significa ordered list y lo utilizaremos cuando
+                        necesitemos tener una lista de elementos ordenados o enumerados. li significa list item
+                        y es un elemento de la lista de cualquiera de los dos tipos, ordenada o desordenada-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+        <!-- carrusel -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section>
+            <h2 class="recetas_rel">CARD1</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-4 px-5 mb-4">
+                        <div class="card" >
+                            <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="">
+                             <div class="card-body">
+                              <h5 class="card-title">TITULO_CARD</h5>
+                              <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-xs-12 col-md-4 col-lg-4 px-5 mb-4">
+                        <div class="card" >
+                            <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="">
+                             <div class="card-body">
+                              <h5 class="card-title">TITULO_CARD</h5>
+                              <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-4 col-lg-4 px-5 mb-4">
+                        <div class="card" >
+                            <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="">
+                             <div class="card-body">
+                              <h5 class="card-title">TITULO_CARD</h5>
+                              <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+        </section>
+
+        <section class="newsletter">
+            <p class="parrafo_1">NEWSLETTER</p>
+            <br>
+            <p class="parrafo_2">parrafo 2</p>
+            
+        </section>
+
+        <footer class="footer_ricomida py-4">
+            <div class="text-center"> 
+            <p class="texto_footer">Footer</p>  
+            </div>
+  
+          </footer>
+    
+        
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
