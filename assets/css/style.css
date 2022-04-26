@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.destacados{
+    background-color: black;
+}
+
+#destacados_cards {
+    background-color: black;
+    color: white
+}
+
+.card-body{
+    color:white
+}
+
+#quienes_somos{
+    background-color: black;
+    color:white
+}
+
+.card-body-1{
+    background-color: black;
+    color:white
+}
+
+.card-header{
+    color:white
+    
+}
+
+.h1nav {
+    color: white
+}
+
+.logovchile {
+    width: 50px;
+}
+
+#fa-solid{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contacto_form {
+    background-color: black;
+    color:white
+}
+
+#Footer {
+    color: white
+}
+
+
+
+
+
+
+
+    
